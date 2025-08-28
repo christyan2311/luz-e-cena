@@ -1,16 +1,16 @@
-import React from 'react'
-import Link from '../../Link'
+import React from "react";
+import Link from "../../Link";
 
-interface MenuItem extends React.LiHTMLAttributes<HTMLLIElement> {
-    href? : string;
+interface MenuItemProps extends React.LiHTMLAttributes<HTMLLIElement> {
+  href?: string;
 }
 
-const MenuItem = ({children, href ='#'}: MenuItem) => {
+const MenuItem = ({ children, href = "#" }: MenuItemProps) => {
   return (
     <li>
-        <Link href={href}>{children}</Link>
+      <Link href={href}>{children}</Link>
     </li>
-  )
-}
+  );
+};
 
-export default MenuItem
+export default MenuItem;

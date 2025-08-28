@@ -7,4 +7,4 @@ const HeaderList = ({children}: React.HTMLAttributes<HTMLUListElement>) => {
   )
 }
 
-export default HeaderList;
+export default HeaderList

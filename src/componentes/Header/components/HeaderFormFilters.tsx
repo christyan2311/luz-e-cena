@@ -1,6 +1,6 @@
 import React from "react";
-import { FaLocationDot } from "react-icons/fa6";
 import SelectorGroup from "../../Selector/SelectorGroup";
+import { FaLocationDot } from "react-icons/fa6";
 import SelectorOption from "../../Selector/SelectorOption";
 
 const cidades = [
